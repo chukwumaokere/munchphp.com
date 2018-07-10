@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-      <!--  <meta property="og:image" content="https://lh4.ggpht.com/7jTO2Act5ERDO3gfvKoS1XHEkJ7X2UQkS58ACKxV8mEJN-dI5G-eLpXqiMyadFsXbAQY"> -->
+        <meta property="og:image" content="https://munchphp.com/assets/munchiem.png"> 
         <meta name="description" content="An open source PHP Framework to make your websites easier, faster.">
         <meta name="keywords" content="Socialite, Socialite app, discover, interests, events, new app, get socialite, mobile app, facebook, twitter, instagram, youtube, socialites, chuck cokere, chuck, okere, chukwuma okere, chukwuma, okere, Okere Studios, munch, munchphp">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
