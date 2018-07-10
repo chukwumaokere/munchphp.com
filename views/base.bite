@@ -3,6 +3,7 @@
         <meta property="og:image" content="https://munchphp.com/assets/munchiem.png"> 
         <meta name="description" content="An open source PHP Framework to make your websites easier, faster.">
         <meta name="keywords" content="Socialite, Socialite app, discover, interests, events, new app, get socialite, mobile app, facebook, twitter, instagram, youtube, socialites, chuck cokere, chuck, okere, chukwuma okere, chukwuma, okere, Okere Studios, munch, munchphp">
+	<meta content="#8814cc" name="theme-color">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link rel="apple-touch-icon" sizes="57x57" href="assets/favicons/apple-icon-57x57.png">
@@ -26,7 +27,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.1/fullpage.js" integrity="sha256-CgwS+xo1Ufrj5IsDadc137NTmK4EvABZkZSBrmy79y8=" crossorigin="anonymous"></script>
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="assets/favicons/ms-icon-144x144.png">
-        <meta name="theme-color" content="#ffffff">
 </head>
 
 <title>munch - Create more, faster.</title>

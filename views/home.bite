@@ -25,14 +25,46 @@
 
 <div class="tertiary section">
 	<div class="title-contact" id="contact">
-		<h1 class=""> Contact </h1>
-		<a href="#home">Back to top</a>
-		<div class="contact-footer">
-			<h4><a href="jobs">Careers</a></h4>
-		        <h4><a href="https://github.com/chukwumaokere/munch">GitHub</a></h4>
-        		<h4><a href="donate">Donate!</a></h4>
-			<h4><a href="support">Support</a></h4>
+		<h1 class="purple"> Contact </h1>
+	</div>
+	<div class="tittle-wrapper purple"><h4 class="small-tittle">LET'S TALK.</h4>
+	<h2 class="stay-in-touch purple">Stay in touch!</h2></div>
+
+	<div class="contact-form">
+	    <div class="contact-form modal-singup">
+		<div class="signup-form">
+		    <div class="w-form">
+			<form action="register.php" data-name="Email Form" id="email-form" name="email-form" _lpchecked="1">
+			    <input class="singup-field w-input" data-name="Name" id="Name-3" maxlength="256" name="Name" placeholder="Name" required="required" type="text">
+			    <input class="singup-field w-input" data-name="Email 3" id="email-3" maxlength="256" name="email-3" placeholder="Email" required="required" type="email">
+			    <input class="singup-field w-input" data-name="Subject 2" id="Subject-2" maxlength="256" name="Subject-2" placeholder="Subject" type="text">
+			    <textarea class="area singup-field w-input" data-name="Text Area 2" id="Text-Area-2" maxlength="5000" name="Text-Area-2" placeholder="Type Message" required="required"></textarea>
+			    <input class="notify-btn sign-btn w-button" data-wait="Please wait..." type="submit" value="submit message">
+			</form>
+			<div class="success w-form-done">
+			    <p class="p-suc">Thank you! Your submission has been received!</p>
+			</div>
+			<div class="error w-form-fail">
+			    <p class="err p-suc">Oops! Something went wrong while submitting the form :(</p>
+			</div>
+		    </div>
 		</div>
+	    </div>
+	</div>
+
+	<div class="contact-footer">
+			<h4><a class="purple" href="jobs">Careers</a></h4>
+		        <h4><a class="purple" href="https://github.com/chukwumaokere/munch">GitHub</a></h4>
+        		<h4><a class="purple" href="donate">Donate!</a></h4>
+			<h4><a class="purple" href="support">Support</a></h4>
+
+		</div>
+	<div class="back-top float-u-d">
+		<a class="purple" href="#home">
+		<i class="fas fa-angle-double-up"></i>
+		&nbsp; Back to top &nbsp;
+		<i class="fas fa-angle-double-up"></i>
+		</a>
 	</div>
 </div>
 </div>

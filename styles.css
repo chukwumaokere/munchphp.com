@@ -75,7 +75,8 @@
 		.secondary{
 		}
 		.tertiary{
-			background: #FFFFFF;
+		/*	background: linear-gradient(to left bottom, hsl(239, 100%, 85%) 0%,hsl(194, 100%, 85%) 100%); */
+			background: linear-gradient(to left bottom, hsl(34, 100%, 85%) 0%,hsl(251, 100%, 85%) 100%);
 		}
 		.main-content{
 			display: flex;
@@ -145,7 +146,7 @@
                         font-weight: bold;
 		}
 		form{	
-			display: flex;
+			display: block;
 		}
 		.form-control{
 			width: 50%;
@@ -306,6 +307,281 @@
 			flex-direction: column;
 			-webkit-flex-direction:column;
 		}
+button,html input[type="button"],input[type="reset"]{
+    border:0;
+    cursor:pointer;
+    -webkit-appearance:button
+}
+.w-form{
+    margin:0 0 15px
+}
+.w-form-done{
+    display:none;
+    padding:20px;
+    text-align:center;
+    background-color:#dddddd
+}
+.w-form-fail{
+    display:none;
+    margin-top:10px;
+    padding:10px;
+    background-color:#ffdede
+}
+label{
+    display:block;
+    margin-bottom:5px;
+    font-weight:bold
+}
+.w-input,.w-select{
+    display:block;
+    width:100%;
+    height:38px;
+    padding:8px 12px;
+    margin-bottom:10px;
+    font-size:14px;
+    line-height:1.42857143;
+    color:#333333;
+    vertical-align:middle;
+    background-color:#ffffff;
+    border:1px solid #cccccc
+}
+.w-input:-moz-placeholder,.w-select:-moz-placeholder{
+    color:#999
+}
+.w-input::-moz-placeholder,.w-select::-moz-placeholder{
+    color:#999;
+    opacity:1
+}
+.w-input:-ms-input-placeholder,.w-select:-ms-input-placeholder{
+    color:#999
+}
+.w-input::-webkit-input-placeholder,.w-select::-webkit-input-placeholder{
+    color:#999
+}
+.w-input:focus,.w-select:focus{
+    border-color:#3898EC;
+    outline:0
+}
+.w-input[disabled],.w-select[disabled],.w-input[readonly],.w-select[readonly],fieldset[disabled] .w-input,fieldset[disabled] .w-select{
+    cursor:not-allowed;
+    background-color:#eeeeee
+}
+textarea.w-input,textarea.w-select{
+    height:auto
+}
+.w-select{
+    background-image:-webkit-linear-gradient(white 0, #f3f3f3 100%);
+    background-image:linear-gradient(white 0, #f3f3f3 100%)
+}
+.w-select[multiple]{
+    height:auto
+}
+.w-form-label{
+    display:inline-block;
+    cursor:pointer;
+    font-weight:normal;
+    margin-bottom:0
+}
+.w-checkbox,.w-radio{
+    display:block;
+    margin-bottom:5px;
+    padding-left:20px
+}
+.w-checkbox:before,.w-radio:before,.w-checkbox:after,.w-radio:after{
+    content:" ";
+    display:table
+}
+.w-checkbox:after,.w-radio:after{
+    clear:both
+}
+.w-checkbox-input,.w-radio-input{
+    margin:4px 0 0;
+    margin-top:1px \9;
+    line-height:normal;
+    float:left;
+    margin-left:-20px
+}
+.w-radio-input{
+    margin-top:3px
+}
+.w-container{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:940px
+}
+.w-container:before,.w-container:after{
+    content:" ";
+    display:table
+}
+.w-container:after{
+    clear:both
+}
+.w-container .w-row{
+    margin-left:-10px;
+    margin-right:-10px
+}
+.w-row:before,.w-row:after{
+    content:" ";
+    display:table
+}
+.w-row:after{
+    clear:both
+}
+.w-row .w-row{
+    margin-left:0;
+    margin-right:0
+}
+.email-field {
+  display: inline-block;
+  width: 400px;
+  height: 55px;
+  padding-left: 20px;
+  border-style: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.email-field:active {
+  color: #fff;
+}
+
+.notify-btn {
+  position: relative;
+  bottom: 5px;
+  display: inline;
+  height: 55px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #b992ce;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.notify-btn:hover {
+  background-color: #4b066f;
+  color: #fff;
+}
+
+.notify-btn.sign-btn {
+  display: block;
+  width: 100%;
+  margin-top: 35px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.notify-btn.sign-btn:hover {
+  background-color: #4b066f;
+  color: #fff;
+}
+
+.spam-text {
+  margin-top: 18px;
+  color: hsla(0, 0%, 100%, .52);
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.modal-singup {
+  display: block;
+  width: 450px;
+  margin: 40px auto 26px;
+  padding: 60px 60px 40px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, .14);
+}
+
+.modal-singup.contact-form {
+  width: 600px;
+  margin-top: 0px;
+  padding-bottom: 60px;
+}
+
+.singup-field {
+  height: 45px;
+  margin-bottom: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 3px;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #ebedf2;
+  border-left-style: none;
+  background-color: transparent;
+  font-size: 13px;
+  font-weight: 400;
+}
+.singup-field:focus {
+  border-bottom-color: #3c8dc5;
+}
+
+.singup-field.area {
+  padding-bottom: 80px;
+}
+.contact-section {
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: 120px;
+  background-image: url("http://uploads.webflow.com/5432b1b70282e4a60a036921/544f956869e18e4c7d2b2881_pattern.png"), url("http://uploads.webflow.com/5432b1b70282e4a60a036921/54405bdccdb0d892441a1dfc_background2.jpg");
+  background-position: 0% 0%, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, scroll;
+}
+
+.contact-continer {
+  padding-top: 80px;
+}
+.contact-form {
+  margin-top: 80px;
+}
+.tittle-wrapper {
+    text-align: center;
+}
+.small-tittle {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #4b066f;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.stay-in-touch{
+	color: #4b066f;
+	font-weight: bold;
+
+}
+.contact-footer{
+	margin-bottom: 0px;
+	display: flex;
+	justify-content: space-around;
+	padding: 1% 30%;
+}
+.back-top{
+	flex-direction: column;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	padding: 0 40%;
+}
+
+.purple{
+	color: white;
+}
+
 /* Media Queries Start */
                 @media screen and (max-width: 1600px) {
                         .main-footer{
