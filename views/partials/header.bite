@@ -1,0 +1,6 @@
+<div id="navbar">
+  <a class="title">munch</a>
+  <a class="active" href="#home">HOME</a>
+  <a href="#features">FEATURES</a>
+  <a href="documentation">DOCUMENTATION</a>
+</div>

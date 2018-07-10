@@ -1,0 +1,38 @@
+<div id="fullpage">
+<div class="main section" id="home">
+	<div class="main-content">
+		{{loadPartial header}}
+		<div class="main-content-right">
+			<div class="flex"> <h1>munch</h1>&nbsp;<span class="blinking-cursor">|</span> </div>
+			<h2 class="sub-header">An open source PHP Framework to make your websites easier, faster.</h2>
+			<!--
+			<h3 class="sub-header-two">Coming Soon...</h3>
+			<form class="signer" action="register.php">
+				<input type="email" class="form-control" name="email-address" placeholder="Sign up for updates!" >
+				<button type="submit" class="btn btn-primary" >Sign me up!</button>
+			</form>
+			-->
+		</div>
+	</div>
+	{{loadPartial footer}}
+</div>
+
+<div class="secondary section" >
+	<div class="title-features" id="features">
+		<h1 class=""> Features </h1>
+	</div>
+</div>
+
+<div class="tertiary section">
+	<div class="title-contact" id="contact">
+		<h1 class=""> Contact </h1>
+		<a href="#home">Back to top</a>
+		<div class="contact-footer">
+			<h4><a href="jobs">Careers</a></h4>
+		        <h4><a href="https://github.com/chukwumaokere/munch">GitHub</a></h4>
+        		<h4><a href="donate">Donate!</a></h4>
+			<h4><a href="support">Support</a></h4>
+		</div>
+	</div>
+</div>
+</div>
