@@ -273,9 +273,11 @@
 		}
 		div.title-features{
 			padding-top:50px;	
+			text-align: center;
 		}
 		div.title-contact{
 			padding-top:50px;
+			text-align: center;
 		}
 		.blinking-cursor {
 		  font-weight: 100;
