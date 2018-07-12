@@ -19,7 +19,19 @@
 
 <div class="secondary section" >
 	<div class="title-features" id="features">
-		<h1 class=""> Features </h1>
+		
+		<h1>
+			<h1 class="typewrite" data-period="2000" data-type='[ "One small step for web", "One giant leap for websites", "These are some features", "Hi Banti! OwO" ]'>
+				<span class="wrap"></span>
+			</h1>
+		</h1>
+	</div>
+	<div class="features-content">
+		<div class="txt-tmp">
+			<i class="fas fa-angle-double-left"></i>
+			<i class="fas fa-angle-double-right"></i>
+                </div>
+		<img src="assets/imac-template.png" style="width:50%;"/>
 	</div>
 </div>
 

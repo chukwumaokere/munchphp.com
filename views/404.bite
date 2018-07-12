@@ -2,13 +2,19 @@
         <div class="main-content-thanks">
                 <div class="main-content-right-thanks">
                         <h1>404 Error :( </h1>
+			
+			<h2 class="typewrite" data-period="3000" style="font-weight:bold" data-type='[ "What are you even doing here?", "...", "Go on, leave. There's nothing to see here.", "What are you waiting for? A surprise?", "...", "FINE HERE! *hands surprise*", "I-its not because I like you or a-anything...", "BAKA!!" ]'>
+                                <span class="wrap"></span>
+                        </h2>
+			<!--	
                         <h2 class="sub-header">That page does not exist</h2>
                         <h3 class="sub-header-two">We wish it did though</h3>
                         <h3 class="sub-header-two">How did you get here anyway...?</h3>
 			<h3 class="sub-header-two">You've seen too much.</h3>
+			-->
                         <br><br>
-                        <h3 class="sub-header-two">Redirecting back to your cookie jar...</h3>
-                        <h3 class=""><a href="/">Click here if you arent redirected</a></h3>
+                        <h3 class="sub-header-two">Sending you back to your cookie jar...</h3>
+                        <h3 class=""><a href="/">Click here if you arent redirected. No seriously, go back to where you came from</a></h3>
                 </div>
         </div>
 </div>
