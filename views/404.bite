@@ -3,7 +3,7 @@
                 <div class="main-content-right-thanks">
                         <h1>404 Error :( </h1>
 			
-			<h2 class="typewrite" data-period="3000" style="font-weight:bold" data-type='[ "What are you even doing here?", "...", "Go on, leave. There's nothing to see here.", "What are you waiting for? A surprise?", "...", "FINE HERE! *hands surprise*", "I-its not because I like you or a-anything...", "BAKA!!" ]'>
+			<h2 class="typewrite" data-period="3000" style="font-weight:bold" data-type='[ "What are you even doing here?", "...", "Go on, leave. There&#39;s nothing to see here.", "What are you waiting for? A surprise?", "...", "FINE HERE! *hands surprise*", "I-its not because I like you or a-anything...", "BAKA!!" ]'>
                                 <span class="wrap"></span>
                         </h2>
 			<!--	
