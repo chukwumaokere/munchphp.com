@@ -28,8 +28,8 @@
 	</div>
 	<div class="features-content">
 		<div class="txt-tmp">
-			<i class="fas fa-angle-double-left"></i>
-			<i class="fas fa-angle-double-right"></i>
+			<a href="#"><i class="fas fa-angle-double-left"></i></a>
+			<a href="#"><i class="fas fa-angle-double-right"></i></a>
                 </div>
 		<img src="assets/imac-template.png" style="width:50%;"/>
 	</div>
