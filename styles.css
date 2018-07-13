@@ -920,6 +920,12 @@ input.notify-btn.sign-btn.w-button {
 			.singup-field.area {
  				padding-bottom: 30px;
 			}
+			.true-footer{
+				padding-right: 20%;
+			}
+			.true-footer > h4 {
+				font-size: 1.0em;
+			}
                 }
 		@media screen and (max-width: 450px) and (max-height: 666px) {
 			.singup-field.area {
