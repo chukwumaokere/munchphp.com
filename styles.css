@@ -483,7 +483,9 @@ textarea.w-input,textarea.w-select{
   background-color: #4b066f;
   color: #fff;
 }
-
+input.notify-btn.sign-btn.w-button {
+    border-radius: 100px;
+}
 .spam-text {
   margin-top: 18px;
   color: hsla(0, 0%, 100%, .52);
@@ -878,7 +880,11 @@ textarea.w-input,textarea.w-select{
 				display: flex;
 			}
 			#navbar a{
-				margin: 0 10px;
+				margin: 0 6px;
+			}
+			#navbar a.title{
+				margin-right: 10px;
+				margin-left: 10px;
 			}
 			#navbar a:not(.title){
                  	      /* margin-top: 1.7%; */
@@ -911,5 +917,14 @@ textarea.w-input,textarea.w-select{
 				top: 0%;
 				padding: 10% 6%;
 			}
+			.singup-field.area {
+ 				padding-bottom: 30px;
+			}
                 }
+		@media screen and (max-width: 450px) and (max-height: 666px) {
+			.singup-field.area {
+                                padding-bottom: 30px;
+                        }
+
+		}
 /* Media Queries End */

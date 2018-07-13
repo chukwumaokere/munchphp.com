@@ -1,5 +1,5 @@
 <div id="navbar">
-  <a class="title">munch</a>
+  <a class="title" id="munch-logo">munch</a>
   <a class="active" href="#features">FEATURES</a>
   <a href="https://github.com/chukwumaokere/munch#readme">DOCUMENTATION</a>
   <a href="#contact">CONTACT</a>
