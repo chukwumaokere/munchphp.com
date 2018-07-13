@@ -79,4 +79,11 @@
 		</a>
 	</div>
 </div>
+
+<div class="true-footer">
+	<h4><a class="purple" href="jobs">Careers</a></h4>
+	<h4><a class="purple" href="https://github.com/chukwumaokere/munch">GitHub</a></h4>
+        <h4><a class="purple" href="donate">Donate!</a></h4>
+	<h4><a class="purple" href="support">Support</a></h4>
+</div>
 </div>
