@@ -81,9 +81,30 @@
 </div>
 
 <div class="true-footer">
-	<h4><a class="purple" href="jobs">Careers</a></h4>
-	<h4><a class="purple" href="https://github.com/chukwumaokere/munch">GitHub</a></h4>
-        <h4><a class="purple" href="donate">Donate!</a></h4>
-	<h4><a class="purple" href="support">Support</a></h4>
+	<div class='c'>
+		<div class="col-tablet">
+			<div class='col'>
+				<div class="col-header"><h4>Get Involved</h4></div>
+				<ul class='col-content'>
+					<li><a class="col-header" href="jobs">Careers</a></li>
+					<li><a href="https://github.com/chukwumaokere/munch">GitHub</a></li>
+					<li><a class="col-header" href="donate">Donate!</a></li>
+				</ul>
+			</div>
+			<div class='col'>
+				<div class="col-header"><h4>Support</h4></div>
+				<ul class='col-content'>
+					<li><a href="https://github.com/chukwumaokere/munch">How To</a></li>
+				</ul>
+			</div>
+			<div class='col'>
+				<div class="col-header"><h4>Contact Us</h4></div>
+				<ul class='col-content'>
+					<li><a href="https://munchphp.com/#contact">Contact Form</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
 </div>
+
 </div>
