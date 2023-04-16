@@ -634,6 +634,10 @@ input.notify-btn.sign-btn.w-button {
 	height: 100%;
 	margin: 0 auto;
 }
+li {
+	width: 40%;
+	white-space: nowrap;
+}
 @keyframes "blink" {
   from, to {
     color: transparent;
